@@ -1,0 +1,7 @@
+D:\.Net\Console_Apps\Multiplication\bin\Debug\Multiplication.exe.config
+D:\.Net\Console_Apps\Multiplication\bin\Debug\Multiplication.exe
+D:\.Net\Console_Apps\Multiplication\bin\Debug\Multiplication.pdb
+D:\.Net\Console_Apps\Multiplication\obj\Debug\Multiplication.csproj.AssemblyReference.cache
+D:\.Net\Console_Apps\Multiplication\obj\Debug\Multiplication.csproj.CoreCompileInputs.cache
+D:\.Net\Console_Apps\Multiplication\obj\Debug\Multiplication.exe
+D:\.Net\Console_Apps\Multiplication\obj\Debug\Multiplication.pdb
