@@ -1,0 +1,7 @@
+D:\.Net\Console_Apps\Substraction\bin\Debug\Substraction.exe.config
+D:\.Net\Console_Apps\Substraction\bin\Debug\Substraction.exe
+D:\.Net\Console_Apps\Substraction\bin\Debug\Substraction.pdb
+D:\.Net\Console_Apps\Substraction\obj\Debug\Substraction.csproj.AssemblyReference.cache
+D:\.Net\Console_Apps\Substraction\obj\Debug\Substraction.csproj.CoreCompileInputs.cache
+D:\.Net\Console_Apps\Substraction\obj\Debug\Substraction.exe
+D:\.Net\Console_Apps\Substraction\obj\Debug\Substraction.pdb
