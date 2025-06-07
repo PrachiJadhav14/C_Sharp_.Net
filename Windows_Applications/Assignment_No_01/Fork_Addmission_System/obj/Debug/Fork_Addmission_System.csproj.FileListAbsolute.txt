@@ -1,0 +1,10 @@
+D:\.Net\Windows_Applications\Assignment_No_01\Fork_Addmission_System\bin\Debug\Fork_Addmission_System.exe.config
+D:\.Net\Windows_Applications\Assignment_No_01\Fork_Addmission_System\bin\Debug\Fork_Addmission_System.exe
+D:\.Net\Windows_Applications\Assignment_No_01\Fork_Addmission_System\bin\Debug\Fork_Addmission_System.pdb
+D:\.Net\Windows_Applications\Assignment_No_01\Fork_Addmission_System\obj\Debug\Fork_Addmission_System.csproj.AssemblyReference.cache
+D:\.Net\Windows_Applications\Assignment_No_01\Fork_Addmission_System\obj\Debug\Fork_Addmission_System.frm_Login.resources
+D:\.Net\Windows_Applications\Assignment_No_01\Fork_Addmission_System\obj\Debug\Fork_Addmission_System.Properties.Resources.resources
+D:\.Net\Windows_Applications\Assignment_No_01\Fork_Addmission_System\obj\Debug\Fork_Addmission_System.csproj.GenerateResource.cache
+D:\.Net\Windows_Applications\Assignment_No_01\Fork_Addmission_System\obj\Debug\Fork_Addmission_System.csproj.CoreCompileInputs.cache
+D:\.Net\Windows_Applications\Assignment_No_01\Fork_Addmission_System\obj\Debug\Fork_Addmission_System.exe
+D:\.Net\Windows_Applications\Assignment_No_01\Fork_Addmission_System\obj\Debug\Fork_Addmission_System.pdb
