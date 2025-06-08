@@ -1,0 +1,7 @@
+D:\.Net\Console_Apps\Reminder\bin\Debug\Reminder.exe.config
+D:\.Net\Console_Apps\Reminder\bin\Debug\Reminder.exe
+D:\.Net\Console_Apps\Reminder\bin\Debug\Reminder.pdb
+D:\.Net\Console_Apps\Reminder\obj\Debug\Reminder.csproj.AssemblyReference.cache
+D:\.Net\Console_Apps\Reminder\obj\Debug\Reminder.csproj.CoreCompileInputs.cache
+D:\.Net\Console_Apps\Reminder\obj\Debug\Reminder.exe
+D:\.Net\Console_Apps\Reminder\obj\Debug\Reminder.pdb
