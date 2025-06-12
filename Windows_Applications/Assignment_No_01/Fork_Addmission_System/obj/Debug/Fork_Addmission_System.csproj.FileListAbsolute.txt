@@ -8,3 +8,5 @@ D:\.Net\Windows_Applications\Assignment_No_01\Fork_Addmission_System\obj\Debug\F
 D:\.Net\Windows_Applications\Assignment_No_01\Fork_Addmission_System\obj\Debug\Fork_Addmission_System.csproj.CoreCompileInputs.cache
 D:\.Net\Windows_Applications\Assignment_No_01\Fork_Addmission_System\obj\Debug\Fork_Addmission_System.exe
 D:\.Net\Windows_Applications\Assignment_No_01\Fork_Addmission_System\obj\Debug\Fork_Addmission_System.pdb
+D:\.Net\Windows_Applications\Assignment_No_01\Fork_Addmission_System\obj\Debug\Fork_Addmission_System.frm_Add_New_Student.resources
+D:\.Net\Windows_Applications\Assignment_No_01\Fork_Addmission_System\obj\Debug\Fork_Addmission_System.frm_Student_List.resources
