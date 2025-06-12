@@ -15,50 +15,28 @@ namespace Fork_Addmission_System
         public frm_Add_New_Student()
         {
             InitializeComponent();
-        }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
+        }
+        private void btn_Refresh_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void btn_Save_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void frm_Add_New_Student_Load(object sender, EventArgs e)
+        private void btn_Student_List_Click(object sender, EventArgs e)
         {
-
+            frm_Student_List obj = new frm_Student_List();
+            obj.Show();
+            this.Show();
         }
-
-        private void lbl_Roll_No_Click(object sender, EventArgs e)
+        private void btn_Logout_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void tb_Roll_No_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tb_Mob_No_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void cmb_Date_Of_Birth_ValueChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void cmb_Course_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lbl_Student_List_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lbl_Save_Click(object sender, EventArgs e)
-        {
+            frm_Login obj = new frm_Login();
+            obj.Show();
+            this.Hide();
 
         }
     }
