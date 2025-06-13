@@ -71,7 +71,6 @@ namespace Fork_Addmission_System
             this.lbl_Student_List.Size = new System.Drawing.Size(304, 58);
             this.lbl_Student_List.TabIndex = 1;
             this.lbl_Student_List.Text = "Student List";
-     
             // 
             // btn_Add_Student
             // 
@@ -110,6 +109,7 @@ namespace Fork_Addmission_System
             this.Name = "frm_Student_List";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Student List";
+            this.Load += new System.EventHandler(this.frm_Student_List_Load);
             this.pnl_Header.ResumeLayout(false);
             this.pnl_Header.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_Student_List)).EndInit();
