@@ -47,7 +47,7 @@ namespace Fork_Addmission_System
             this.lbl_Login_Form.Size = new System.Drawing.Size(384, 75);
             this.lbl_Login_Form.TabIndex = 0;
             this.lbl_Login_Form.Text = "Login Form";
-            this.lbl_Login_Form.Click += new System.EventHandler(this.lbl_Login_Form_Click);
+            
             // 
             // lbl_UserName
             // 
@@ -55,7 +55,7 @@ namespace Fork_Addmission_System
             this.lbl_UserName.BackColor = System.Drawing.Color.PaleGreen;
             this.lbl_UserName.Font = new System.Drawing.Font("Modern No. 20", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_UserName.ForeColor = System.Drawing.Color.Black;
-            this.lbl_UserName.Location = new System.Drawing.Point(153, 254);
+            this.lbl_UserName.Location = new System.Drawing.Point(119, 254);
             this.lbl_UserName.Name = "lbl_UserName";
             this.lbl_UserName.Size = new System.Drawing.Size(185, 41);
             this.lbl_UserName.TabIndex = 1;
@@ -67,7 +67,7 @@ namespace Fork_Addmission_System
             this.lbl_Password.BackColor = System.Drawing.Color.PaleGreen;
             this.lbl_Password.Font = new System.Drawing.Font("Modern No. 20", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Password.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.lbl_Password.Location = new System.Drawing.Point(153, 431);
+            this.lbl_Password.Location = new System.Drawing.Point(119, 431);
             this.lbl_Password.Name = "lbl_Password";
             this.lbl_Password.Size = new System.Drawing.Size(171, 41);
             this.lbl_Password.TabIndex = 2;
@@ -79,9 +79,8 @@ namespace Fork_Addmission_System
             this.tb_UserName.Location = new System.Drawing.Point(653, 244);
             this.tb_UserName.MaxLength = 20;
             this.tb_UserName.Name = "tb_UserName";
-            this.tb_UserName.Size = new System.Drawing.Size(348, 39);
+            this.tb_UserName.Size = new System.Drawing.Size(298, 39);
             this.tb_UserName.TabIndex = 1;
-            this.tb_UserName.TextChanged += new System.EventHandler(this.tb_UserName_TextChanged);
             // 
             // tb_Password
             // 
@@ -90,7 +89,7 @@ namespace Fork_Addmission_System
             this.tb_Password.MaxLength = 8;
             this.tb_Password.Name = "tb_Password";
             this.tb_Password.PasswordChar = '$';
-            this.tb_Password.Size = new System.Drawing.Size(348, 39);
+            this.tb_Password.Size = new System.Drawing.Size(298, 39);
             this.tb_Password.TabIndex = 2;
             // 
             // btn_Submit
@@ -104,6 +103,7 @@ namespace Fork_Addmission_System
             this.btn_Submit.TabIndex = 3;
             this.btn_Submit.Text = "Submit";
             this.btn_Submit.UseVisualStyleBackColor = false;
+            this.btn_Submit.Click += new System.EventHandler(this.btn_Submit_Click);
             // 
             // frm_Login
             // 
@@ -122,7 +122,6 @@ namespace Fork_Addmission_System
             this.Name = "frm_Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = " Login Form";
-            this.Load += new System.EventHandler(this.frm_Login_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
