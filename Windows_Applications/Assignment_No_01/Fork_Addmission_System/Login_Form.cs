@@ -17,24 +17,25 @@ namespace Fork_Addmission_System
             InitializeComponent();
         }
 
-        private void frm_Login_Load(object sender, EventArgs e)
+        private void btn_Submit_Click(object sender, EventArgs e)
         {
+            if (tb_UserName.Text == "Admin" && tb_Password.Text == "1455")
+            {
+                MessageBox.Show("Login Successful", "WELCOME");
 
+                frm_Add_New_Student obj = new frm_Add_New_Student();
+                obj.Show();
+                this.Hide(); 
+            }
+            else
+            {
+                MessageBox.Show("Login Failed, Enter Correct UserName/Password.", "Failure");
+            }
+            tb_UserName.Clear();
+            tb_Password.Clear();
+            tb_UserName.Focus();
         }
 
-        private void lbl_Login_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lbl_Login_Form_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tb_UserName_TextChanged(object sender, EventArgs e)
-        {
-
-        }
+       
     }
 }
