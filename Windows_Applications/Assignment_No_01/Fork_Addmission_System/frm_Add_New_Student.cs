@@ -39,5 +39,28 @@ namespace Fork_Addmission_System
             this.Hide();
 
         }
+
+        private void pnl_Header_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void Only_Numeric(object sender, KeyPressEventArgs e)
+        {
+            if(!(char.IsDigit(e.KeyChar) || (e.KeyChar == (char)Keys.Back)))
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void Only_Text(object sender, KeyPressEventArgs e)
+        {
+            if (!(char.IsDigit(e.KeyChar) || (e.KeyChar == (char)Keys.Back) ||  (e.KeyChar == (char)Keys.Space)))
+            {
+                e.Handled = true;
+            }
+        }
+
+      
     }
 }
