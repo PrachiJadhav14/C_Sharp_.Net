@@ -59,7 +59,7 @@ namespace Fork_Addmission_System
             this.pnl_Header.Size = new System.Drawing.Size(894, 117);
             this.pnl_Header.TabIndex = 0;
             this.pnl_Header.Tag = "";
-            this.pnl_Header.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            this.pnl_Header.Paint += new System.Windows.Forms.PaintEventHandler(this.pnl_Header_Paint);
             // 
             // btn_Logout
             // 
@@ -70,8 +70,9 @@ namespace Fork_Addmission_System
             this.btn_Logout.Name = "btn_Logout";
             this.btn_Logout.Size = new System.Drawing.Size(118, 42);
             this.btn_Logout.TabIndex = 9;
-            this.btn_Logout.Text = "LogOut";
+            this.btn_Logout.Text = "Logout";
             this.btn_Logout.UseVisualStyleBackColor = false;
+            this.btn_Logout.Click += new System.EventHandler(this.btn_Logout_Click);
             // 
             // lbl_Add_Student_Details
             // 
@@ -80,6 +81,7 @@ namespace Fork_Addmission_System
             this.lbl_Add_Student_Details.AutoSize = true;
             this.lbl_Add_Student_Details.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.lbl_Add_Student_Details.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbl_Add_Student_Details.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.lbl_Add_Student_Details.Font = new System.Drawing.Font("Modern No. 20", 28F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Add_Student_Details.Location = new System.Drawing.Point(248, 30);
             this.lbl_Add_Student_Details.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
@@ -99,7 +101,6 @@ namespace Fork_Addmission_System
             this.lbl_Roll_No.Size = new System.Drawing.Size(116, 34);
             this.lbl_Roll_No.TabIndex = 1;
             this.lbl_Roll_No.Text = "Roll No";
-            this.lbl_Roll_No.Click += new System.EventHandler(this.lbl_Roll_No_Click);
             // 
             // lbl_Name
             // 
@@ -149,7 +150,7 @@ namespace Fork_Addmission_System
             this.tb_Roll_No.Name = "tb_Roll_No";
             this.tb_Roll_No.Size = new System.Drawing.Size(290, 37);
             this.tb_Roll_No.TabIndex = 1;
-            this.tb_Roll_No.TextChanged += new System.EventHandler(this.tb_Roll_No_TextChanged);
+            this.tb_Roll_No.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Only_Text);
             // 
             // tb_Name
             // 
@@ -159,6 +160,8 @@ namespace Fork_Addmission_System
             this.tb_Name.Name = "tb_Name";
             this.tb_Name.Size = new System.Drawing.Size(290, 37);
             this.tb_Name.TabIndex = 2;
+           
+            this.tb_Name.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Only_Text);
             // 
             // cmb_Date_Of_Birth
             // 
@@ -170,7 +173,6 @@ namespace Fork_Addmission_System
             this.cmb_Date_Of_Birth.Size = new System.Drawing.Size(290, 37);
             this.cmb_Date_Of_Birth.TabIndex = 3;
             this.cmb_Date_Of_Birth.Value = new System.DateTime(2025, 6, 1, 0, 0, 0, 0);
-            this.cmb_Date_Of_Birth.ValueChanged += new System.EventHandler(this.cmb_Date_Of_Birth_ValueChanged);
             // 
             // tb_Mob_No
             // 
@@ -180,7 +182,6 @@ namespace Fork_Addmission_System
             this.tb_Mob_No.Name = "tb_Mob_No";
             this.tb_Mob_No.Size = new System.Drawing.Size(290, 37);
             this.tb_Mob_No.TabIndex = 4;
-            this.tb_Mob_No.TextChanged += new System.EventHandler(this.tb_Mob_No_TextChanged);
             // 
             // cmb_Course
             // 
@@ -204,7 +205,6 @@ namespace Fork_Addmission_System
             this.cmb_Course.Name = "cmb_Course";
             this.cmb_Course.Size = new System.Drawing.Size(290, 38);
             this.cmb_Course.TabIndex = 5;
-            this.cmb_Course.SelectedIndexChanged += new System.EventHandler(this.cmb_Course_SelectedIndexChanged);
             // 
             // btn_Refresh
             // 
@@ -217,6 +217,7 @@ namespace Fork_Addmission_System
             this.btn_Refresh.TabIndex = 6;
             this.btn_Refresh.Text = "Refresh";
             this.btn_Refresh.UseVisualStyleBackColor = false;
+            this.btn_Refresh.Click += new System.EventHandler(this.btn_Refresh_Click);
             // 
             // btn_Student_List
             // 
@@ -229,6 +230,7 @@ namespace Fork_Addmission_System
             this.btn_Student_List.TabIndex = 8;
             this.btn_Student_List.Text = "Student List";
             this.btn_Student_List.UseVisualStyleBackColor = false;
+            this.btn_Student_List.Click += new System.EventHandler(this.btn_Student_List_Click);
             // 
             // btn_Save
             // 
@@ -241,6 +243,7 @@ namespace Fork_Addmission_System
             this.btn_Save.TabIndex = 7;
             this.btn_Save.Text = "Save";
             this.btn_Save.UseVisualStyleBackColor = false;
+            this.btn_Save.Click += new System.EventHandler(this.btn_Save_Click);
             // 
             // frm_Add_New_Student
             // 
@@ -269,7 +272,7 @@ namespace Fork_Addmission_System
             this.Name = "frm_Add_New_Student";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Add New Student";
-            this.Load += new System.EventHandler(this.frm_Add_New_Student_Load);
+            this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Only_Numeric);
             this.pnl_Header.ResumeLayout(false);
             this.pnl_Header.PerformLayout();
             this.ResumeLayout(false);
