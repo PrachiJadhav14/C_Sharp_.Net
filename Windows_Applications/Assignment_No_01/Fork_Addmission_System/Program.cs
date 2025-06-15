@@ -16,7 +16,7 @@ namespace Fork_Addmission_System
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frm_Login());
+            Application.Run(new frm_Add_New_Student());
 
         }
     }
