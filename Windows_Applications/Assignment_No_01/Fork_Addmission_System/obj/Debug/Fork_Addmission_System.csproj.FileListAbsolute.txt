@@ -10,3 +10,15 @@ D:\.Net\Windows_Applications\Assignment_No_01\Fork_Addmission_System\obj\Debug\F
 D:\.Net\Windows_Applications\Assignment_No_01\Fork_Addmission_System\obj\Debug\Fork_Addmission_System.pdb
 D:\.Net\Windows_Applications\Assignment_No_01\Fork_Addmission_System\obj\Debug\Fork_Addmission_System.frm_Add_New_Student.resources
 D:\.Net\Windows_Applications\Assignment_No_01\Fork_Addmission_System\obj\Debug\Fork_Addmission_System.frm_Student_List.resources
+D:\Dot Net\Windows_Applications\Assignment_No_01\Fork_Addmission_System\bin\Debug\Fork_Addmission_System.exe.config
+D:\Dot Net\Windows_Applications\Assignment_No_01\Fork_Addmission_System\bin\Debug\Fork_Addmission_System.exe
+D:\Dot Net\Windows_Applications\Assignment_No_01\Fork_Addmission_System\bin\Debug\Fork_Addmission_System.pdb
+D:\Dot Net\Windows_Applications\Assignment_No_01\Fork_Addmission_System\obj\Debug\Fork_Addmission_System.csproj.AssemblyReference.cache
+D:\Dot Net\Windows_Applications\Assignment_No_01\Fork_Addmission_System\obj\Debug\Fork_Addmission_System.frm_Student_List.resources
+D:\Dot Net\Windows_Applications\Assignment_No_01\Fork_Addmission_System\obj\Debug\Fork_Addmission_System.frm_Login.resources
+D:\Dot Net\Windows_Applications\Assignment_No_01\Fork_Addmission_System\obj\Debug\Fork_Addmission_System.frm_Add_New_Student.resources
+D:\Dot Net\Windows_Applications\Assignment_No_01\Fork_Addmission_System\obj\Debug\Fork_Addmission_System.Properties.Resources.resources
+D:\Dot Net\Windows_Applications\Assignment_No_01\Fork_Addmission_System\obj\Debug\Fork_Addmission_System.csproj.GenerateResource.cache
+D:\Dot Net\Windows_Applications\Assignment_No_01\Fork_Addmission_System\obj\Debug\Fork_Addmission_System.csproj.CoreCompileInputs.cache
+D:\Dot Net\Windows_Applications\Assignment_No_01\Fork_Addmission_System\obj\Debug\Fork_Addmission_System.exe
+D:\Dot Net\Windows_Applications\Assignment_No_01\Fork_Addmission_System\obj\Debug\Fork_Addmission_System.pdb
