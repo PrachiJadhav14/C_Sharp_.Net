@@ -59,7 +59,6 @@ namespace Fork_Addmission_System
             this.pnl_Header.Size = new System.Drawing.Size(894, 117);
             this.pnl_Header.TabIndex = 0;
             this.pnl_Header.Tag = "";
-            this.pnl_Header.Paint += new System.Windows.Forms.PaintEventHandler(this.pnl_Header_Paint);
             // 
             // btn_Logout
             // 
@@ -150,7 +149,7 @@ namespace Fork_Addmission_System
             this.tb_Roll_No.Name = "tb_Roll_No";
             this.tb_Roll_No.Size = new System.Drawing.Size(290, 37);
             this.tb_Roll_No.TabIndex = 1;
-            this.tb_Roll_No.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Only_Text);
+            this.tb_Roll_No.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Only_Numbric);
             // 
             // tb_Name
             // 
@@ -160,7 +159,6 @@ namespace Fork_Addmission_System
             this.tb_Name.Name = "tb_Name";
             this.tb_Name.Size = new System.Drawing.Size(290, 37);
             this.tb_Name.TabIndex = 2;
-           
             this.tb_Name.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Only_Text);
             // 
             // cmb_Date_Of_Birth
@@ -182,6 +180,7 @@ namespace Fork_Addmission_System
             this.tb_Mob_No.Name = "tb_Mob_No";
             this.tb_Mob_No.Size = new System.Drawing.Size(290, 37);
             this.tb_Mob_No.TabIndex = 4;
+            this.tb_Mob_No.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Only_Numbric);
             // 
             // cmb_Course
             // 
@@ -205,6 +204,7 @@ namespace Fork_Addmission_System
             this.cmb_Course.Name = "cmb_Course";
             this.cmb_Course.Size = new System.Drawing.Size(290, 38);
             this.cmb_Course.TabIndex = 5;
+            this.cmb_Course.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Only_Text);
             // 
             // btn_Refresh
             // 
