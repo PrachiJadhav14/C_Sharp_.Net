@@ -66,7 +66,7 @@ namespace Fork_Addmission_System
                 cmd.ExecuteNonQuery();
 
                 MessageBox.Show("Record Save Successfully.........");
-                clear_Fields();
+                
             }
         }
 
@@ -83,8 +83,6 @@ namespace Fork_Addmission_System
             this.Hide();
 
         }
-
-
         private void Only_Numeric(object sender, KeyPressEventArgs e)
         {
             if(!(char.IsDigit(e.KeyChar) || (e.KeyChar == (char)Keys.Back)))
