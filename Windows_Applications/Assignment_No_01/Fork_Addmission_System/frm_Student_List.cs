@@ -32,6 +32,12 @@ namespace Fork_Addmission_System
 
         private void frm_Student_List_Load(object sender, EventArgs e)
         {
+            // TODO: This line of code loads data into the 'fork_Addmission_SystemDataSet1.Student_List' table. You can move, or remove it, as needed.
+            this.student_ListTableAdapter1.Fill(this.fork_Addmission_SystemDataSet1.Student_List);
+            // TODO: This line of code loads data into the 'fork_Addmission_SystemDataSet.Student_List' table. You can move, or remove it, as needed.
+            this.student_ListTableAdapter.Fill(this.fork_Addmission_SystemDataSet.Student_List);
+            // TODO: This line of code loads data into the 'yC_Student_Addmission_System_DBDataSet.Student_Details' table. You can move, or remove it, as needed.
+
 
         }
     }
