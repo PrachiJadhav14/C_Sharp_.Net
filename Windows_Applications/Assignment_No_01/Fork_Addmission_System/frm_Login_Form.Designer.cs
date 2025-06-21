@@ -120,8 +120,8 @@ namespace Fork_Addmission_System
             this.MinimizeBox = false;
             this.Name = "frm_Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = " Login Form";
-
+            this.Text = "                                                                                 " +
+    "     ";
             this.ResumeLayout(false);
             this.PerformLayout();
 
