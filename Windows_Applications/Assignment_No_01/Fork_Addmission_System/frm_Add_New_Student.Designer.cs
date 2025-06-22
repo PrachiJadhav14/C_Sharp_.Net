@@ -39,7 +39,7 @@ namespace Fork_Addmission_System
             this.lbl_Course = new System.Windows.Forms.Label();
             this.tb_Roll_No = new System.Windows.Forms.TextBox();
             this.tb_Name = new System.Windows.Forms.TextBox();
-            this.cmb_Date_Of_Birth = new System.Windows.Forms.DateTimePicker();
+            this.dtp_Date_Of_Birth = new System.Windows.Forms.DateTimePicker();
             this.tb_Mob_No = new System.Windows.Forms.TextBox();
             this.cmb_Course = new System.Windows.Forms.ComboBox();
             this.btn_Refresh = new System.Windows.Forms.Button();
@@ -89,6 +89,7 @@ namespace Fork_Addmission_System
             this.lbl_Add_Student_Details.TabIndex = 0;
             this.lbl_Add_Student_Details.Text = "Add Student Details";
             this.lbl_Add_Student_Details.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.lbl_Add_Student_Details.Click += new System.EventHandler(this.lbl_Add_Student_Details_Click);
             // 
             // lbl_Roll_No
             // 
@@ -161,20 +162,21 @@ namespace Fork_Addmission_System
             this.tb_Name.TabIndex = 2;
             this.tb_Name.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Only_Text);
             // 
-            // cmb_Date_Of_Birth
+            // dtp_Date_Of_Birth
             // 
-            this.cmb_Date_Of_Birth.Font = new System.Drawing.Font("Modern No. 20", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmb_Date_Of_Birth.Location = new System.Drawing.Point(442, 275);
-            this.cmb_Date_Of_Birth.MaxDate = new System.DateTime(2025, 6, 1, 0, 0, 0, 0);
-            this.cmb_Date_Of_Birth.MinDate = new System.DateTime(1997, 6, 1, 0, 0, 0, 0);
-            this.cmb_Date_Of_Birth.Name = "cmb_Date_Of_Birth";
-            this.cmb_Date_Of_Birth.Size = new System.Drawing.Size(290, 37);
-            this.cmb_Date_Of_Birth.TabIndex = 3;
-            this.cmb_Date_Of_Birth.Value = new System.DateTime(2025, 6, 1, 0, 0, 0, 0);
+            this.dtp_Date_Of_Birth.Font = new System.Drawing.Font("Modern No. 20", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtp_Date_Of_Birth.Location = new System.Drawing.Point(442, 275);
+            this.dtp_Date_Of_Birth.MaxDate = new System.DateTime(2025, 6, 1, 0, 0, 0, 0);
+            this.dtp_Date_Of_Birth.MinDate = new System.DateTime(1997, 6, 1, 0, 0, 0, 0);
+            this.dtp_Date_Of_Birth.Name = "dtp_Date_Of_Birth";
+            this.dtp_Date_Of_Birth.Size = new System.Drawing.Size(290, 37);
+            this.dtp_Date_Of_Birth.TabIndex = 3;
+            this.dtp_Date_Of_Birth.Value = new System.DateTime(2025, 6, 1, 0, 0, 0, 0);
             // 
             // tb_Mob_No
             // 
             this.tb_Mob_No.Font = new System.Drawing.Font("Modern No. 20", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tb_Mob_No.ForeColor = System.Drawing.Color.White;
             this.tb_Mob_No.Location = new System.Drawing.Point(442, 358);
             this.tb_Mob_No.MaxLength = 10;
             this.tb_Mob_No.Name = "tb_Mob_No";
@@ -194,10 +196,6 @@ namespace Fork_Addmission_System
             "BSC(CS)",
             "BCS",
             "BCA",
-            "",
-            "",
-            "",
-            "",
             ""});
             this.cmb_Course.Location = new System.Drawing.Point(442, 440);
             this.cmb_Course.MaxDropDownItems = 6;
@@ -256,7 +254,7 @@ namespace Fork_Addmission_System
             this.Controls.Add(this.btn_Refresh);
             this.Controls.Add(this.cmb_Course);
             this.Controls.Add(this.tb_Mob_No);
-            this.Controls.Add(this.cmb_Date_Of_Birth);
+            this.Controls.Add(this.dtp_Date_Of_Birth);
             this.Controls.Add(this.tb_Name);
             this.Controls.Add(this.tb_Roll_No);
             this.Controls.Add(this.lbl_Course);
@@ -293,7 +291,7 @@ namespace Fork_Addmission_System
         private System.Windows.Forms.TextBox tb_Name;
         private System.Windows.Forms.TextBox tb_Mob_No;
         private System.Windows.Forms.ComboBox cmb_Course;
-        private System.Windows.Forms.DateTimePicker cmb_Date_Of_Birth;
+        private System.Windows.Forms.DateTimePicker dtp_Date_Of_Birth;
         private System.Windows.Forms.Button btn_Refresh;
         private System.Windows.Forms.Button btn_Student_List;
         private System.Windows.Forms.Button btn_Save;
