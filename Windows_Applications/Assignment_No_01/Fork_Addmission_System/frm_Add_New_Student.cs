@@ -17,12 +17,11 @@ namespace Fork_Addmission_System
         public frm_Add_New_Student()
         {
             InitializeComponent();
-            
+
 
         }
-       
 
-        SqlConnection con = new SqlConnection(@"Data Source=LAPTOP-T2Q4BSUC;Initial Catalog=DB_Student_Addmission_System;Integrated Security=True");
+        SqlConnection con = new SqlConnection(@"Data Source=LAPTOP-T2Q4BSUC;Initial Catalog=Fork_Addmission_System;Integrated Security=True");
         void Con_Open()
         {
             if(con.State != ConnectionState.Open)
@@ -41,7 +40,7 @@ namespace Fork_Addmission_System
         {
             tb_Roll_No.Clear();
             tb_Name.Clear();
-            cmb_Date_Of_Birth.Text = "14-05-2005";
+            dtp_Date_Of_Birth.Text = "14-05-2005";
             tb_Mob_No.Clear();
             cmb_Course.SelectedIndex = -1;
 
@@ -50,26 +49,29 @@ namespace Fork_Addmission_System
         {
             Con_Open();
 
-            if(tb_Roll_No.Text != "" && tb_Name.Text != "" && tb_Mob_No.Text != "" && cmb_Date_Of_Birth.Text != "" && cmb_Course.Text != "")
+            if(tb_Roll_No.Text != "" && tb_Name.Text != "" &&  dtp_Date_Of_Birth.Text != "" &&  tb_Mob_No.Text != "" && cmb_Course.Text != "")
             {
                 SqlCommand cmd = new SqlCommand();
 
                 cmd.Connection = con;
-                cmd.CommandText = "Insert Into Student_Details Values(@Rno,@Nm,@MNo,@Dob,@Course)";
+                cmd.CommandText = "Insert Into Student_List Values(@Rno,@Nm,@DOB,@MNo,@Course)";
 
                 cmd.Parameters.Add("RNo",SqlDbType.Int).Value = tb_Roll_No.Text;
-                cmd.Parameters.Add("Nm", SqlDbType.VarChar).Value = tb_Name;
-                cmd.Parameters.Add("MNo", SqlDbType.Int).Value = tb_Mob_No;
-                cmd.Parameters.Add("Dob", SqlDbType.Date).Value = cmb_Date_Of_Birth;
-                cmd.Parameters.Add("Course",SqlDbType.NVarChar).Value = cmb_Course;
+                cmd.Parameters.Add("Nm", SqlDbType.VarChar).Value = tb_Name.Text;
+                cmd.Parameters.Add("Dob", SqlDbType.Date).Value = dtp_Date_Of_Birth.Text;
+                cmd.Parameters.Add("MNo", SqlDbType.Decimal).Value = tb_Mob_No.Text;
+                cmd.Parameters.Add("Course",SqlDbType.NVarChar).Value = cmb_Course.Text;
 
                 cmd.ExecuteNonQuery();
 
                 MessageBox.Show("Record Save Successfully.........");
-                
+            }
+            else
+            {
+                MessageBox.Show("Incomplete Data");
+
             }
         }
-
         private void btn_Student_List_Click(object sender, EventArgs e)
         {
             frm_Student_List obj = new frm_Student_List();
@@ -106,6 +108,11 @@ namespace Fork_Addmission_System
             {
                 e.Handled = true;
             }
+        }
+
+        private void lbl_Add_Student_Details_Click(object sender, EventArgs e)
+        {
+
         }
     }
     }
