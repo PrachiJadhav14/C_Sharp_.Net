@@ -12,13 +12,10 @@ using System.Data.SqlClient;
 namespace Fork_Addmission_System
 {
     public partial class frm_Add_New_Student : Form
-
     {
         public frm_Add_New_Student()
         {
             InitializeComponent();
-
-
         }
 
         SqlConnection con = new SqlConnection(@"Data Source=LAPTOP-T2Q4BSUC;Initial Catalog=Fork_Addmission_System;Integrated Security=True");
@@ -43,7 +40,6 @@ namespace Fork_Addmission_System
             dtp_Date_Of_Birth.Text = "14-05-2005";
             tb_Mob_No.Clear();
             cmb_Course.SelectedIndex = -1;
-
         }
         private void btn_Save_Click(object sender, EventArgs e)
         {
@@ -69,7 +65,20 @@ namespace Fork_Addmission_System
             else
             {
                 MessageBox.Show("Incomplete Data");
-
+            }
+        }
+        private void Only_Numeric(object sender, KeyPressEventArgs e)
+        {
+            if (!(char.IsDigit(e.KeyChar) || (e.KeyChar == (char)Keys.Back)))
+            {
+                e.Handled = true;
+            }
+        }
+        private void Only_Text(object sender, KeyPressEventArgs e)
+        {
+            if (!(char.IsLetter(e.KeyChar) || (e.KeyChar == (char)Keys.Back) || (e.KeyChar == (char)Keys.Space)))
+            {
+                e.Handled = true;
             }
         }
         private void btn_Student_List_Click(object sender, EventArgs e)
@@ -83,36 +92,6 @@ namespace Fork_Addmission_System
             frm_Login obj = new frm_Login();
             obj.Show();
             this.Hide();
-
-        }
-        private void Only_Numeric(object sender, KeyPressEventArgs e)
-        {
-            if(!(char.IsDigit(e.KeyChar) || (e.KeyChar == (char)Keys.Back)))
-            {
-                e.Handled = true;
-            }
-        }
-
-        private void Only_Text(object sender, KeyPressEventArgs e)
-        {
-            if (!(char.IsLetter(e.KeyChar) || (e.KeyChar == (char)Keys.Back) ||  (e.KeyChar == (char)Keys.Space)))
-            {
-                e.Handled = true;
-            }
-        }
-
-        
-        private void Only_Numbric(object sender, KeyPressEventArgs e)
-        {
-            if (!(char.IsDigit(e.KeyChar) || (e.KeyChar == (char)Keys.Back)))
-            {
-                e.Handled = true;
-            }
-        }
-
-        private void lbl_Add_Student_Details_Click(object sender, EventArgs e)
-        {
-
-        }
+        }  
     }
     }
