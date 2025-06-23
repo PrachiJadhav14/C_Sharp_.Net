@@ -35,7 +35,5 @@ namespace Fork_Addmission_System
             tb_Password.Clear();
             tb_UserName.Focus();
         }
-
-        
     }
 }
