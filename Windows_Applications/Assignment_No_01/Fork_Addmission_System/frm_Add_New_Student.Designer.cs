@@ -40,11 +40,11 @@ namespace Fork_Addmission_System
             this.tb_Roll_No = new System.Windows.Forms.TextBox();
             this.tb_Name = new System.Windows.Forms.TextBox();
             this.dtp_Date_Of_Birth = new System.Windows.Forms.DateTimePicker();
-            this.tb_Mob_No = new System.Windows.Forms.TextBox();
             this.cmb_Course = new System.Windows.Forms.ComboBox();
             this.btn_Refresh = new System.Windows.Forms.Button();
             this.btn_Student_List = new System.Windows.Forms.Button();
             this.btn_Save = new System.Windows.Forms.Button();
+            this.tb_Mob_No = new System.Windows.Forms.TextBox();
             this.pnl_Header.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -89,7 +89,6 @@ namespace Fork_Addmission_System
             this.lbl_Add_Student_Details.TabIndex = 0;
             this.lbl_Add_Student_Details.Text = "Add Student Details";
             this.lbl_Add_Student_Details.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.lbl_Add_Student_Details.Click += new System.EventHandler(this.lbl_Add_Student_Details_Click);
             // 
             // lbl_Roll_No
             // 
@@ -150,7 +149,6 @@ namespace Fork_Addmission_System
             this.tb_Roll_No.Name = "tb_Roll_No";
             this.tb_Roll_No.Size = new System.Drawing.Size(290, 37);
             this.tb_Roll_No.TabIndex = 1;
-            this.tb_Roll_No.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Only_Numbric);
             // 
             // tb_Name
             // 
@@ -172,17 +170,6 @@ namespace Fork_Addmission_System
             this.dtp_Date_Of_Birth.Size = new System.Drawing.Size(290, 37);
             this.dtp_Date_Of_Birth.TabIndex = 3;
             this.dtp_Date_Of_Birth.Value = new System.DateTime(2025, 6, 1, 0, 0, 0, 0);
-            // 
-            // tb_Mob_No
-            // 
-            this.tb_Mob_No.Font = new System.Drawing.Font("Modern No. 20", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_Mob_No.ForeColor = System.Drawing.Color.White;
-            this.tb_Mob_No.Location = new System.Drawing.Point(442, 358);
-            this.tb_Mob_No.MaxLength = 10;
-            this.tb_Mob_No.Name = "tb_Mob_No";
-            this.tb_Mob_No.Size = new System.Drawing.Size(290, 37);
-            this.tb_Mob_No.TabIndex = 4;
-            this.tb_Mob_No.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Only_Numbric);
             // 
             // cmb_Course
             // 
@@ -212,7 +199,7 @@ namespace Fork_Addmission_System
             this.btn_Refresh.Location = new System.Drawing.Point(38, 525);
             this.btn_Refresh.Name = "btn_Refresh";
             this.btn_Refresh.Size = new System.Drawing.Size(159, 49);
-            this.btn_Refresh.TabIndex = 6;
+            this.btn_Refresh.TabIndex = 7;
             this.btn_Refresh.Text = "Refresh";
             this.btn_Refresh.UseVisualStyleBackColor = false;
             this.btn_Refresh.Click += new System.EventHandler(this.btn_Refresh_Click);
@@ -238,10 +225,20 @@ namespace Fork_Addmission_System
             this.btn_Save.Location = new System.Drawing.Point(328, 525);
             this.btn_Save.Name = "btn_Save";
             this.btn_Save.Size = new System.Drawing.Size(159, 49);
-            this.btn_Save.TabIndex = 7;
+            this.btn_Save.TabIndex = 6;
             this.btn_Save.Text = "Save";
             this.btn_Save.UseVisualStyleBackColor = false;
             this.btn_Save.Click += new System.EventHandler(this.btn_Save_Click);
+            // 
+            // tb_Mob_No
+            // 
+            this.tb_Mob_No.Font = new System.Drawing.Font("Modern No. 20", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tb_Mob_No.Location = new System.Drawing.Point(442, 358);
+            this.tb_Mob_No.MaxLength = 10;
+            this.tb_Mob_No.Name = "tb_Mob_No";
+            this.tb_Mob_No.Size = new System.Drawing.Size(290, 37);
+            this.tb_Mob_No.TabIndex = 4;
+            this.tb_Mob_No.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Only_Numeric);
             // 
             // frm_Add_New_Student
             // 
@@ -249,11 +246,11 @@ namespace Fork_Addmission_System
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(894, 606);
+            this.Controls.Add(this.tb_Mob_No);
             this.Controls.Add(this.btn_Save);
             this.Controls.Add(this.btn_Student_List);
             this.Controls.Add(this.btn_Refresh);
             this.Controls.Add(this.cmb_Course);
-            this.Controls.Add(this.tb_Mob_No);
             this.Controls.Add(this.dtp_Date_Of_Birth);
             this.Controls.Add(this.tb_Name);
             this.Controls.Add(this.tb_Roll_No);
@@ -270,7 +267,7 @@ namespace Fork_Addmission_System
             this.Name = "frm_Add_New_Student";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Add New Student";
-            this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Only_Numeric);
+         
             this.pnl_Header.ResumeLayout(false);
             this.pnl_Header.PerformLayout();
             this.ResumeLayout(false);
@@ -289,12 +286,12 @@ namespace Fork_Addmission_System
         private System.Windows.Forms.Label lbl_Course;
         private System.Windows.Forms.TextBox tb_Roll_No;
         private System.Windows.Forms.TextBox tb_Name;
-        private System.Windows.Forms.TextBox tb_Mob_No;
         private System.Windows.Forms.ComboBox cmb_Course;
         private System.Windows.Forms.DateTimePicker dtp_Date_Of_Birth;
         private System.Windows.Forms.Button btn_Refresh;
         private System.Windows.Forms.Button btn_Student_List;
         private System.Windows.Forms.Button btn_Save;
         private System.Windows.Forms.Button btn_Logout;
+        private System.Windows.Forms.TextBox tb_Mob_No;
     }
 }
