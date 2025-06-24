@@ -46,17 +46,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Fork_Addmission_SystemDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Fork_Addmission_SystemDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Fork_Addmission_SystemDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Fork_Addmission_SystemDataSet1.xsd</DependentUpon>
+    </Compile>
     <Compile Include="frm_Student_List.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frm_Student_List.Designer.cs">
       <DependentUpon>frm_Student_List.cs</DependentUpon>
     </Compile>
-    <Compile Include="Login_Form.cs">
+    <Compile Include="frm_Login_Form.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Login_Form.Designer.cs">
-      <DependentUpon>Login_Form.cs</DependentUpon>
+    <Compile Include="frm_Login_Form.Designer.cs">
+      <DependentUpon>frm_Login_Form.cs</DependentUpon>
     </Compile>
     <Compile Include="frm_Add_New_Student.cs">
       <SubType>Form</SubType>
@@ -69,8 +79,8 @@
     <EmbeddedResource Include="frm_Student_List.resx">
       <DependentUpon>frm_Student_List.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Login_Form.resx">
-      <DependentUpon>Login_Form.cs</DependentUpon>
+    <EmbeddedResource Include="frm_Login_Form.resx">
+      <DependentUpon>frm_Login_Form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_Add_New_Student.resx">
       <DependentUpon>frm_Add_New_Student.cs</DependentUpon>
@@ -84,6 +94,28 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="Fork_Addmission_SystemDataSet.xsc">
+      <DependentUpon>Fork_Addmission_SystemDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Fork_Addmission_SystemDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Fork_Addmission_SystemDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Fork_Addmission_SystemDataSet.xss">
+      <DependentUpon>Fork_Addmission_SystemDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Fork_Addmission_SystemDataSet1.xsc">
+      <DependentUpon>Fork_Addmission_SystemDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Fork_Addmission_SystemDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Fork_Addmission_SystemDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Fork_Addmission_SystemDataSet1.xss">
+      <DependentUpon>Fork_Addmission_SystemDataSet1.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
