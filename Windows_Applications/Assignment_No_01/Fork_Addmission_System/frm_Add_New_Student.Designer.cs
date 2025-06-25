@@ -267,7 +267,6 @@ namespace Fork_Addmission_System
             this.Name = "frm_Add_New_Student";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Add New Student";
-         
             this.pnl_Header.ResumeLayout(false);
             this.pnl_Header.PerformLayout();
             this.ResumeLayout(false);
