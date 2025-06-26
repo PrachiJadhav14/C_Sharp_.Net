@@ -37,7 +37,7 @@ namespace Fork_Addmission_System
         {
             tb_Roll_No.Clear();
             tb_Name.Clear();
-            dtp_Date_Of_Birth.Text = "14-05-2005";
+           ///dtp_Date_Of_Birth.Text = "14-05-2005";
             tb_Mob_No.Clear();
             cmb_Course.SelectedIndex = -1;
         }
