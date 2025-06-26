@@ -27,7 +27,7 @@ namespace Fork_Addmission_System
         {
             frm_Login obj = new frm_Login();
             obj.Show();
-            this.Show();
+            this.Hide();
         }
 
         private void frm_Student_List_Load(object sender, EventArgs e)
