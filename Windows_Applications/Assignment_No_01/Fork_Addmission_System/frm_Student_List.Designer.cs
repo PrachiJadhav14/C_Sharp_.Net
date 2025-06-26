@@ -38,7 +38,7 @@ namespace Fork_Addmission_System
             this.studentListBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.fork_Addmission_SystemDataSet = new Fork_Addmission_System.Fork_Addmission_SystemDataSet();
             this.student_ListTableAdapter = new Fork_Addmission_System.Fork_Addmission_SystemDataSetTableAdapters.Student_ListTableAdapter();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgv_Student_List = new System.Windows.Forms.DataGridView();
             this.rollNoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dOBDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -51,7 +51,7 @@ namespace Fork_Addmission_System
             ((System.ComponentModel.ISupportInitialize)(this.studentDetailsBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.studentListBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.fork_Addmission_SystemDataSet)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_Student_List)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.studentListBindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.fork_Addmission_SystemDataSet1)).BeginInit();
             this.SuspendLayout();
@@ -65,7 +65,6 @@ namespace Fork_Addmission_System
             this.pnl_Header.Name = "pnl_Header";
             this.pnl_Header.Size = new System.Drawing.Size(894, 117);
             this.pnl_Header.TabIndex = 0;
-         
             // 
             // btn_Logout
             // 
@@ -122,27 +121,27 @@ namespace Fork_Addmission_System
             // 
             this.student_ListTableAdapter.ClearBeforeFill = true;
             // 
-            // dataGridView1
+            // dgv_Student_List
             // 
-            this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.AllowUserToDeleteRows = false;
-            this.dataGridView1.AutoGenerateColumns = false;
-            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dgv_Student_List.AllowUserToAddRows = false;
+            this.dgv_Student_List.AllowUserToDeleteRows = false;
+            this.dgv_Student_List.AutoGenerateColumns = false;
+            this.dgv_Student_List.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgv_Student_List.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_Student_List.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.rollNoDataGridViewTextBoxColumn,
             this.nameDataGridViewTextBoxColumn,
             this.dOBDataGridViewTextBoxColumn,
             this.mobNoDataGridViewTextBoxColumn,
             this.courseDataGridViewTextBoxColumn});
-            this.dataGridView1.DataSource = this.studentListBindingSource1;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 137);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.RowHeadersWidth = 62;
-            this.dataGridView1.RowTemplate.Height = 28;
-            this.dataGridView1.Size = new System.Drawing.Size(850, 376);
-            this.dataGridView1.TabIndex = 3;
+            this.dgv_Student_List.DataSource = this.studentListBindingSource1;
+            this.dgv_Student_List.Location = new System.Drawing.Point(12, 137);
+            this.dgv_Student_List.Name = "dgv_Student_List";
+            this.dgv_Student_List.ReadOnly = true;
+            this.dgv_Student_List.RowHeadersWidth = 62;
+            this.dgv_Student_List.RowTemplate.Height = 28;
+            this.dgv_Student_List.Size = new System.Drawing.Size(850, 376);
+            this.dgv_Student_List.TabIndex = 3;
             // 
             // rollNoDataGridViewTextBoxColumn
             // 
@@ -202,7 +201,7 @@ namespace Fork_Addmission_System
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.ClientSize = new System.Drawing.Size(894, 606);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dgv_Student_List);
             this.Controls.Add(this.btn_Add_Student);
             this.Controls.Add(this.pnl_Header);
             this.MaximizeBox = false;
@@ -216,7 +215,7 @@ namespace Fork_Addmission_System
             ((System.ComponentModel.ISupportInitialize)(this.studentDetailsBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.studentListBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.fork_Addmission_SystemDataSet)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_Student_List)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.studentListBindingSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.fork_Addmission_SystemDataSet1)).EndInit();
             this.ResumeLayout(false);
@@ -233,7 +232,7 @@ namespace Fork_Addmission_System
         private Fork_Addmission_SystemDataSet fork_Addmission_SystemDataSet;
         private System.Windows.Forms.BindingSource studentListBindingSource;
         private Fork_Addmission_SystemDataSetTableAdapters.Student_ListTableAdapter student_ListTableAdapter;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgv_Student_List;
         private Fork_Addmission_SystemDataSet1 fork_Addmission_SystemDataSet1;
         private System.Windows.Forms.BindingSource studentListBindingSource1;
         private Fork_Addmission_SystemDataSet1TableAdapters.Student_ListTableAdapter student_ListTableAdapter1;
