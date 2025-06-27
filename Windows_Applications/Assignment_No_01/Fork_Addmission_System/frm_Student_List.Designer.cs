@@ -83,10 +83,10 @@ namespace Fork_Addmission_System
             // 
             this.lbl_Student_List.AutoSize = true;
             this.lbl_Student_List.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.lbl_Student_List.Font = new System.Drawing.Font("Modern No. 20", 28F);
-            this.lbl_Student_List.Location = new System.Drawing.Point(273, 34);
+            this.lbl_Student_List.Font = new System.Drawing.Font("Modern No. 20", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Student_List.Location = new System.Drawing.Point(253, 21);
             this.lbl_Student_List.Name = "lbl_Student_List";
-            this.lbl_Student_List.Size = new System.Drawing.Size(304, 58);
+            this.lbl_Student_List.Size = new System.Drawing.Size(392, 75);
             this.lbl_Student_List.TabIndex = 1;
             this.lbl_Student_List.Text = "Student List";
             // 
