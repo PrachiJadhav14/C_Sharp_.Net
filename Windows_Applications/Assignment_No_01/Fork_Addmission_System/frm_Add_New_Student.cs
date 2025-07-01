@@ -57,7 +57,7 @@ namespace Fork_Addmission_System
                 cmd.Parameters.Add("Dob", SqlDbType.Date).Value = dtp_Date_Of_Birth.Text;
                 cmd.Parameters.Add("MNo", SqlDbType.Decimal).Value = tb_Mob_No.Text;
                 cmd.Parameters.Add("Course",SqlDbType.NVarChar).Value = cmb_Course.Text;
-
+                                                                                                                                                            
                 cmd.ExecuteNonQuery();
 
                 MessageBox.Show("Record Save Successfully.........");
@@ -85,7 +85,7 @@ namespace Fork_Addmission_System
         {
             frm_Student_List obj = new frm_Student_List();
             obj.Show();
-            this.Show();
+            this.Hide();
         }
         private void btn_Logout_Click(object sender, EventArgs e)
         {
