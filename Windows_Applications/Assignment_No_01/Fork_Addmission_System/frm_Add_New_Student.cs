@@ -66,6 +66,7 @@ namespace Fork_Addmission_System
             {
                 MessageBox.Show("Incomplete Data");
             }
+
         }
         private void Only_Numeric(object sender, KeyPressEventArgs e)
         {
