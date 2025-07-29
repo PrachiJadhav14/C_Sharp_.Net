@@ -1,0 +1,14 @@
+D:\Dot Net\Windows_Applications\Assignment_No_03\Fork_Admission_System\bin\Debug\Fork_Admission_System.exe.config
+D:\Dot Net\Windows_Applications\Assignment_No_03\Fork_Admission_System\bin\Debug\Fork_Admission_System.exe
+D:\Dot Net\Windows_Applications\Assignment_No_03\Fork_Admission_System\bin\Debug\Fork_Admission_System.pdb
+D:\Dot Net\Windows_Applications\Assignment_No_03\Fork_Admission_System\obj\Debug\Fork_Admission_System.csproj.AssemblyReference.cache
+D:\Dot Net\Windows_Applications\Assignment_No_03\Fork_Admission_System\obj\Debug\Fork_Admission_System.frm_Login.resources
+D:\Dot Net\Windows_Applications\Assignment_No_03\Fork_Admission_System\obj\Debug\Fork_Admission_System.Properties.Resources.resources
+D:\Dot Net\Windows_Applications\Assignment_No_03\Fork_Admission_System\obj\Debug\Fork_Admission_System.csproj.GenerateResource.cache
+D:\Dot Net\Windows_Applications\Assignment_No_03\Fork_Admission_System\obj\Debug\Fork_Admission_System.csproj.CoreCompileInputs.cache
+D:\Dot Net\Windows_Applications\Assignment_No_03\Fork_Admission_System\obj\Debug\Fork_Admission_System.exe
+D:\Dot Net\Windows_Applications\Assignment_No_03\Fork_Admission_System\obj\Debug\Fork_Admission_System.pdb
+D:\Dot Net\Windows_Applications\Assignment_No_03\Fork_Admission_System\obj\Debug\Fork_Admission_System.frm_Add_Student_Details.resources
+D:\Dot Net\Windows_Applications\Assignment_No_03\Fork_Admission_System\obj\Debug\Fork_Admission_System.frm_Search_Student.resources
+D:\Dot Net\Windows_Applications\Assignment_No_03\Fork_Admission_System\obj\Debug\Fork_Admission_System.frm_Update_Student.resources
+D:\Dot Net\Windows_Applications\Assignment_No_03\Fork_Admission_System\obj\Debug\Fork_Admission_System.frm_Student_List.resources
