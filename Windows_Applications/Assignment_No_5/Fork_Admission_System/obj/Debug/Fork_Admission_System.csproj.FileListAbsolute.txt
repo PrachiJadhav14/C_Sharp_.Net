@@ -1,0 +1,10 @@
+D:\Dot Net\Windows_Applications\Assignment_No_5\Fork_Admission_System\bin\Debug\Fork_Admission_System.exe.config
+D:\Dot Net\Windows_Applications\Assignment_No_5\Fork_Admission_System\bin\Debug\Fork_Admission_System.exe
+D:\Dot Net\Windows_Applications\Assignment_No_5\Fork_Admission_System\bin\Debug\Fork_Admission_System.pdb
+D:\Dot Net\Windows_Applications\Assignment_No_5\Fork_Admission_System\obj\Debug\Fork_Admission_System.csproj.AssemblyReference.cache
+D:\Dot Net\Windows_Applications\Assignment_No_5\Fork_Admission_System\obj\Debug\Fork_Admission_System.frm_Use_Windows_Control.resources
+D:\Dot Net\Windows_Applications\Assignment_No_5\Fork_Admission_System\obj\Debug\Fork_Admission_System.Properties.Resources.resources
+D:\Dot Net\Windows_Applications\Assignment_No_5\Fork_Admission_System\obj\Debug\Fork_Admission_System.csproj.GenerateResource.cache
+D:\Dot Net\Windows_Applications\Assignment_No_5\Fork_Admission_System\obj\Debug\Fork_Admission_System.csproj.CoreCompileInputs.cache
+D:\Dot Net\Windows_Applications\Assignment_No_5\Fork_Admission_System\obj\Debug\Fork_Admission_System.exe
+D:\Dot Net\Windows_Applications\Assignment_No_5\Fork_Admission_System\obj\Debug\Fork_Admission_System.pdb
